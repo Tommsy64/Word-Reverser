@@ -2,7 +2,6 @@ package wordreverser;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.TextArea;
 
@@ -12,9 +11,6 @@ public class MainController {
 
 	@FXML
 	private TextArea input;
-
-	@FXML
-	private Button reverseButton;
 
 	@FXML
 	private CheckBox capitalCheckBox;
