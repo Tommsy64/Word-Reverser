@@ -24,7 +24,8 @@
 	</rowConstraints>
 	<children>
 		<TextArea fx:id="input" prefHeight="200.0" prefWidth="200.0"
-			text="Enter text here" GridPane.columnSpan="2" GridPane.rowSpan="2" />
+			text="Enter text here" wrapText="true" GridPane.columnSpan="2"
+			GridPane.rowSpan="2" />
 		<Button fx:id="reverseButton" alignment="CENTER"
 			mnemonicParsing="false" onAction="#reverseButtonClick" prefHeight="26.0"
 			prefWidth="129.0" text="Reverse Text" GridPane.halignment="CENTER"
@@ -35,7 +36,8 @@
 				<CheckBox fx:id="capitalCheckBox" mnemonicParsing="false"
 					prefHeight="23.0" text="Capitalize First Letter"
 					GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-				<CheckBox fx:id="spaceCheckBox" mnemonicParsing="false" text="Remove Spaces" />
+				<CheckBox fx:id="spaceCheckBox" mnemonicParsing="false"
+					text="Remove Spaces" />
 			</children>
 		</VBox>
 	</children>
